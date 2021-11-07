@@ -30,9 +30,8 @@ def maximalRectangle(matrix):
                     height = height + 1
                 else:
                     break
-            # print(str(i)+","+str(j)+"  "+str(height))
             ans = max(ans,height*List[i][j])
-    print(ans)
+    return ans
 
 
 
